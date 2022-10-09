@@ -1,19 +1,20 @@
 {
-  "name": "testing-course",
+  "name": "mocks-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "vitest"
+    "start": "http-server -c-1",
+    "test": "vitest --run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "http-server": "^14.1.0"
   },
   "devDependencies": {
-    "vitest": "^0.9.2"
+    "happy-dom": "^2.55.0",
+    "vitest": "^0.9.3"
   }
 }
